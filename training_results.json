@@ -1,0 +1,212 @@
+{
+  "best_model_name": "Linear Regression",
+  "split_info": {
+    "split_date": "2024-10-01",
+    "train_size": 722,
+    "test_size": 143
+  },
+  "feature_cols": [
+    "An",
+    "Luna",
+    "Scop_Encoded",
+    "Luna_Sin",
+    "Luna_Cos",
+    "Trimestru",
+    "Sezon",
+    "Este_Ianuarie",
+    "Months_Since_Start",
+    "Year_Month",
+    "Lag_1",
+    "Lag_2",
+    "Lag_3",
+    "Lag_12",
+    "Rolling_Mean_3",
+    "Rolling_Std_3"
+  ],
+  "models": {
+    "Linear Regression": {
+      "metrics": {
+        "MAE": 14.413663173697865,
+        "RMSE": 27.435720697298255,
+        "R2": 0.9173506848134639,
+        "MAPE": 117.61767360646435
+      },
+      "feature_importance": {
+        "features": [
+          "An",
+          "Luna",
+          "Scop_Encoded",
+          "Luna_Sin",
+          "Luna_Cos",
+          "Trimestru",
+          "Sezon",
+          "Este_Ianuarie",
+          "Months_Since_Start",
+          "Year_Month",
+          "Lag_1",
+          "Lag_2",
+          "Lag_3",
+          "Lag_12",
+          "Rolling_Mean_3",
+          "Rolling_Std_3"
+        ],
+        "coefficients": [
+          -3.8261379688786645,
+          2.4718895060260335,
+          -0.3018395931652752,
+          -4.526742440572267,
+          -2.569490476081182,
+          -5.112907463498548,
+          -2.0094680591432876,
+          -3.9489355988552393,
+          0.6542656897732907,
+          -3.620147176705273,
+          0.4123362756567921,
+          0.12828016201876066,
+          0.15204735627058968,
+          0.1379283371956899,
+          0.23088793131525523,
+          -0.3603453588831644
+        ]
+      }
+    },
+    "Random Forest": {
+      "metrics": {
+        "MAE": 18.04343738059472,
+        "RMSE": 37.438018844809854,
+        "R2": 0.8461022641140121,
+        "MAPE": 102.63255805636307
+      },
+      "feature_importance": {
+        "features": [
+          "An",
+          "Luna",
+          "Scop_Encoded",
+          "Luna_Sin",
+          "Luna_Cos",
+          "Trimestru",
+          "Sezon",
+          "Este_Ianuarie",
+          "Months_Since_Start",
+          "Year_Month",
+          "Lag_1",
+          "Lag_2",
+          "Lag_3",
+          "Lag_12",
+          "Rolling_Mean_3",
+          "Rolling_Std_3"
+        ],
+        "importances": [
+          0.0018389868741588494,
+          0.0155841165417576,
+          0.0032936341716249965,
+          0.009044171972696028,
+          0.0033479176226093445,
+          0.001552523812293558,
+          0.001271813495674669,
+          0.00043790449678909714,
+          0.016267254604498165,
+          0.019068355906307618,
+          0.703729628024226,
+          0.012482567613642491,
+          0.01569915617882058,
+          0.022322691435438538,
+          0.16125186455893079,
+          0.012807412690531568
+        ]
+      }
+    },
+    "XGBoost": {
+      "metrics": {
+        "MAE": 15.188008308410645,
+        "RMSE": 32.80779170089115,
+        "R2": 0.881815493106842,
+        "MAPE": 76.02211570802125
+      },
+      "feature_importance": {
+        "features": [
+          "An",
+          "Luna",
+          "Scop_Encoded",
+          "Luna_Sin",
+          "Luna_Cos",
+          "Trimestru",
+          "Sezon",
+          "Este_Ianuarie",
+          "Months_Since_Start",
+          "Year_Month",
+          "Lag_1",
+          "Lag_2",
+          "Lag_3",
+          "Lag_12",
+          "Rolling_Mean_3",
+          "Rolling_Std_3"
+        ],
+        "importances": [
+          0.01822471059858799,
+          0.04355347529053688,
+          0.013017982244491577,
+          0.03212340176105499,
+          0.012598466128110886,
+          0.017747843638062477,
+          0.011325642466545105,
+          0.04420631006360054,
+          0.03951668739318848,
+          0.02496376261115074,
+          0.5120276212692261,
+          0.05969436466693878,
+          0.019935937598347664,
+          0.025698455050587654,
+          0.10972073674201965,
+          0.015644578263163567
+        ]
+      }
+    },
+    "LightGBM": {
+      "metrics": {
+        "MAE": 19.475365212231665,
+        "RMSE": 34.38954940333309,
+        "R2": 0.8701447584762236,
+        "MAPE": 139.71557836402022
+      },
+      "feature_importance": {
+        "features": [
+          "An",
+          "Luna",
+          "Scop_Encoded",
+          "Luna_Sin",
+          "Luna_Cos",
+          "Trimestru",
+          "Sezon",
+          "Este_Ianuarie",
+          "Months_Since_Start",
+          "Year_Month",
+          "Lag_1",
+          "Lag_2",
+          "Lag_3",
+          "Lag_12",
+          "Rolling_Mean_3",
+          "Rolling_Std_3"
+        ],
+        "importances": [
+          17,
+          119,
+          75,
+          56,
+          62,
+          7,
+          20,
+          0,
+          249,
+          148,
+          614,
+          391,
+          534,
+          402,
+          373,
+          549
+        ]
+      }
+    }
+  }
+}
